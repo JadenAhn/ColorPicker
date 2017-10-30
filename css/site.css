@@ -1,0 +1,73 @@
+﻿body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: auto; /* set to auto fill the screen it is displayed on*/
+    width: auto; /* same as above, also makes the margin center below work*/
+    text-align: center; /*  centers all text in the body*/
+    margin: 2em auto; /*centers all elements in the body and gives a 2em margin*/
+    background-color: #3e464c;
+    color: #222;
+}
+a{
+    color: #EF6C00;
+    text-decoration: none;
+}
+.carousel-control{
+    width:5em;
+}
+
+.thumbnail {
+    background-color: #00897b;
+}
+#thumbnailRow .thumbnail{
+    padding-top:2em;
+}
+
+#tabPanes{
+    margin-bottom: 5em;
+    clear: both;
+}
+#tabPanes p{
+    padding-top: 1em;
+}
+#tabPanes img {
+    border-radius: 50%;
+    width: 25em;
+    padding: 2em 2em 1em 2em;
+}
+
+h1{
+    color: #EF6C00;
+}
+
+.palette
+{
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    text-shadow: 1px 1px #3e464c;
+}
+.palette:hover
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+.img-rounded:hover
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+footer
+{
+    padding: 12px;
+    background-color: #101010;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #9E9E9E;
+    text-align: center;
+}
