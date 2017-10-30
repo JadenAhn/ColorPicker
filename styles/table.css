@@ -1,0 +1,81 @@
+article h2{
+	font-family:"PT Sans Narrow",Helvetica,Arial,Sans-Serif;
+	font-size: 110%;
+	display: inline;
+}
+
+article img
+{
+    margin-top: 28px;
+    margin-right: 15px;
+    float: left;
+    width: 125px;
+}
+
+article table
+{
+    margin: 0 auto;
+    width: 580px;
+}
+
+article thead
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+article thead th
+{
+    height: 35px;
+}
+
+div.profile th, td{
+  margin-top: 10px;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+div.profile th{
+  color: #fff;
+}
+div.profile th:first-child {
+  width: 140px;
+  height: 20px;
+}
+
+#asideB{
+	padding: 0 .5em;
+}
+
+#asideB h2{
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: -.5em;
+}
+
+#asideB span{
+	color: #C3C3C3;
+	font-size: 90%;
+}
+
+#asideB a{
+	font-style: italic;
+	color: yellow;
+}
+
+#asideB a:hover, #asideB a:focus{
+	font-weight: bold;
+}
+
+#asideB p{
+  font-size: 80%;
+}
+
+#asideB img{
+	clear: both;
+	border: 1px solid white;
+	width: 50px;
+	float: left;
+	margin-right: 6px;
+}

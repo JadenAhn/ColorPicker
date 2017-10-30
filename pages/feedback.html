@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LOGAN</title>
+    <link rel="icon" type="image/ico" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/feedback.css">
+  </head>
+  <body>
+    <header>
+      <img id="logo_img" src="../images/logo.png" alt="Logan Logo">
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="../pages/about.html">ABOUT</a></li>
+          <li><a href="../pages/stars.html">STARS</a></li>
+          <li><a href="../pages/media.html">MEDIA</a>
+              <ul>
+                <li><a href="../pages/media.html">POSTERS</a></li>
+                <li><a href="../pages/photos.html">PHOTOS</a></li>
+                <li><a href="../pages/videos1.html">VIDEOS</a>
+                  <ul>
+                    <li><a href="../pages/videos1.html">Official Trailer 1[HD]</a></li>
+                    <li><a href="../pages/videos2.html">Official Trailer 2[HD]</a></li>
+                    <li><a href="../pages/videos3.html">Sunseeker</a></li>
+                  </ul>
+                </li>
+              </ul>
+          </li>
+          <li><a href="../pages/feedback.html" class="current">FEEDBACK</a></li>
+        </ul>
+    </nav>
+    <aside id="asideA">
+        <br>
+        <a href="../index.php"><div class="grow_thumb pic_thumb"><img src="..\thumbnails\nav_home.png" alt="home"></div>
+        <h2>HOME</h2></a>
+        <a href="../pages/about.html"><div class="grow_thumb pic_thumb"><img src="..\thumbnails\nav_about.png" alt="about"></div>
+        <h2>ABOUT</h2></a>
+        <a href="../pages/stars.html"><div class="grow_thumb pic_thumb"><img src="..\thumbnails\nav_stars.png" alt="stars"></div>
+        <h2>STARS</h2></a>
+        <a href="../pages/media.html"><div class="grow_thumb pic_thumb"><img src="..\thumbnails\nav_media.png" alt="media"></div>
+        <h2>MEDIA</h2></a>
+        <a href="../pages/feedback.html"><div class="grow_thumb pic_thumb"><img src="..\thumbnails\nav_feedback.png" alt="feedback"></div>
+        <h2>FEEDBACK</h2></a>
+    </aside>
+    <main>
+      <article>
+        <h1>FEEDBACK</h1>
+          <form name="myform" action="#" onsubmit="greeting()" method="get">
+            <label for="name">Name:</label>
+            <input type="text" name="name" autofocus required><br>
+            <label for="name">Email:</label>
+            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+            <label for="password">PIN:</label>
+            <input type="password" name="password" id="password" placeholder="****" maxlength="4" required pattern="\d{4}" title="Must be 4-digit number"><br>
+            <label for="select">Why I like Logan:</label>
+            <select name="select" style="width:200px">
+              <optgroup label="Actors">
+                <option value="value1">Hugh Jackman</option>
+                <option value="value2">Dafne Keen</option>
+                <option value="value3">Patrick Stewart</option>
+              <optgroup label="Other Reasons">
+                <option value="value1">Story</option>
+                <option value="value2">Actions</option>
+                <option value="value3">Scenes</option>
+              </optgroup>
+
+            </select><br>
+            <label for="listbox">Favorite Genre:</label>
+            <select name="listbox" size="3" multiple>
+              <option value="value1" style="width:180px">Action</option>
+              <option value="value1">Animation</option>
+              <option value="value2">Drama</option>
+              <option value="value3">Comedy</option>
+              <option value="value4">Horror</option>
+            </select><br>
+            <span>* Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</span><br><br>
+            <label for="textarea">Comment:</label>
+            <textarea name="name" rows="7" cols="50"></textarea><br><br>
+            <input type="submit" name="submit" value="Submit" id="button">
+            <input type="reset" name="Reset" value="Reset" id="reset">
+          </form>
+          <script>
+          function greeting() {
+              alert("Thank you!");
+          }
+          </script>
+      </article>
+    </main>
+    <aside id="asideB">
+      <br>
+      <form action="#">
+        <label for="why">My Website is...</label>
+        <input type="checkbox" name="why" value="fun" checked> Reliable Source<br>
+        <input type="checkbox" name="why" value="contents"> Good contents<br>
+        <input type="checkbox" name="why" value="design"> Well Designed<br><br>
+
+        <label for="re-visit">I will visit again</label>
+        <input type="radio" name="re-visit" value="yes" checked>Yes<br>
+        <input type="radio" name="re-visit" value="no">No<br><br>
+
+        <input type="submit" name="submit"  value="Submit" id="small_button">
+      </form>
+    </aside>
+
+    <footer>
+      <div id="terms">
+  				™ and © 2017 2017 Twentieth Century Fox Film Corporation. All rights reserved. Property of Fox. Use of this website (including any and all parts and components) constitutes your acceptance of these <a href="https://www.foxprivacy.com/us/terms.html" target="_blank">NEW Terms of Use</a> (<a href="https://www.foxprivacy.com/us/terms_whatsnew.html" target="_blank">What's new?</a>) and <a href="https://www.foxprivacy.com/us/privacy.html" target="_blank">NEW Privacy Policy</a>. <a href="https://www.foxprivacy.com/us/aboutourads.html" target="_blank">Ad Choices</a>. The materials on this website are not to be sold, traded or given away. Any copying, manipulation, publishing, or other transfer of these materials, except as specifically provided in the terms and conditions of use, is strictly prohibited. <a href="http://www.foxmovies.com/smoking-policy" target="_blank">Smoking Policy</a></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+#images{
+  padding: .5em;
+  clear: both;
+  margin-bottom: 350px;
+}
+#images .left{
+  float: left;
+}
+#images .right{
+  float: right;
+}
+
+#videos p{
+  color: yellow;
+}
+
+#images a:hover, #images a:focus{
+  font-style: italic;
+}
+
+.posters img{
+  width: 200px;
+  margin: 5px;
+
+  border: 2px solid #fff;
+  margin: 5px;
+  overflow: hidden;
+  float: left;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.posters img:hover {
+  width: 270px;
+}
+
+.photos img{
+  width: 150px;
+  margin: 5px;
+  border: 2px solid #fff;
+  margin: 5px;
+  overflow: hidden;
+  float: left;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  }
+
+  .photos img:hover {
+    width: 350px;
+  }
+
+  #asideB h2{
+  	font-size: 80%;
+  	text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #asideB h3{
+  	font-size: 70%;
+  	text-align: center;
+  }
+
+  #asideB p{
+    font-size: 80%;
+  	margin: 1em;
+  }
+
+  /*GROW*/
+  .pic_poster {
+  	display: block;
+  	margin: auto;
+    border: 1px solid #737373;
+    width: 120px;
+    height: 160px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 5px #111;
+            box-shadow: 5px 5px 5px #111;
+  }
+  .grow_poster img {
+  	width: 120px;
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+
+  .grow_poster img:hover {
+    width: 200px;
+  }

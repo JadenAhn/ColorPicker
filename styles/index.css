@@ -1,0 +1,64 @@
+article h2{
+	font-family:"PT Sans Narrow",Helvetica,Arial,Sans-Serif;
+	color: yellow;
+	font-size: 110%;
+	display: inline;
+}
+
+article p{
+	color: white;
+	display: inline;
+	font-size: 85%;
+}
+
+#asideB h2{
+	font-size: 120%;
+	font-family:"PT Sans Narrow",Helvetica,Arial,Sans-Serif;
+	text-align: center;
+}
+
+#asideB h4{
+	font-size: 120%;
+	font-family:"PT Sans Narrow",Helvetica,Arial,Sans-Serif;
+	text-align: center;
+}
+
+#asideB p{
+  font-size: 80%;
+	margin: 1em;
+}
+
+/*Grow*/
+.pic {
+  border: 2px solid #fff;
+  height: 100px;
+  width: 180px;
+  margin: 5px;
+  overflow: hidden;
+	float: left;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+}
+.grow img {
+	width: 180px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 240px;
+}
+
+div.staff table{
+  margin-top: 120px;
+  text-align: left;
+  vertical-align: top;
+}
+
+div.staff td:first-child {
+  width: 140px;
+  height: 26px;
+}
